@@ -110,42 +110,63 @@
     </ul>
     </section>
     <br>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <h2>Форма</h2>
+    <form action="/" method="POST">
+        <label> Введите своё ФИО
+            <br>
+            <input name="field-name-1" placeholder="Иван Иванов">
+        </label>
+        <br>
+        <label> Номер телефона
+            <br>
+            <input name="field-phone-number" type="number" placeholder="88005553535">
+        </label>
+        <br>
+        <label> Почта
+            <br>
+            <input name="field-email" type="email" placeholder="example@mail.ru">
+        </label>
+        <br>
+        <label>Дата рождения
+            <br>
+            <input name="date-of-birth" value="yyyy.mm.dd" type="date">
+        </label>
+        <br>Пол
+        <label>
+            <br>
+            <input type="radio" name="radio-gr-1" value="v1">
+            Муж
+        </label>
+        <label>
+            <input type="radio" name="radio-gr-1" value="v2">
+            Муж
+        </label>
+        <br>
+        <label>Любимый язык программирования
+            <br>
+            <select name="field-list" multiple="multiple">
+                <option value="value1" selected="selected">С++</option>
+                <option value="value2">Java</option>
+                <option value="value3">Kotlin</option>
+                <option value="value4">Python</option>
+                <option value="value5">PHP</option>
+            </select>
+        </label>
+        <br>
+        <label>Биография
+            <br>
+            <textarea name="field-bioghraphy">Начну свою историю с...</textarea>
+        </label>
+        <label>
+            <br>
+            <input type="checkbox" name="check-1">
+            С контрактом ознакомлен(а)
+        </label>
+        <br>
+        <label>
+            <br>
+            <input type="submit" value="Сохранить">
+        </label>
+    </form>
 </body>
 </html>
