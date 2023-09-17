@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    backgound-color: #c18b92;
+}
+header{
+    width:100%;
+    background-color:#a65963;
+    padding: 10px;
+    height: 120px;
+}
+image{
+    float:left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+content{
+    max-width: 800px;
+    background-color: #a65963;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+footer{
+    width: 100px;
+    background-color: #a65963;
+    margin: 50px;
+    padding: 50px;
+}
