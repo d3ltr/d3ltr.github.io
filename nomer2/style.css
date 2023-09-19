@@ -1,25 +1,27 @@
 * {
     color: #1d5707;
+    overflow-x: hidden;
 }
 
-body{
+body {
     margin: 0;
 }
 .header {
     width: 100%;
     background-color: #669a2a;
-    padding: 10px;
     min-height: 120px;
+    padding: 5px;
 }
 
 .header-content {
-    margin: 10px;
+    margin: 40px;
     height: 120px;
     background-color: #85b252;
 }
 
 .pg-nav{
     float: right;
+    margin-right: 20px;
     font-size: xx-large
 }
 
@@ -31,14 +33,12 @@ body{
 }
 
 .name {
-    margin: 20px;
     font-size: larger;
 }
 
 .img {
     float:left;
     margin: 10px;
-
 }
 
 .content {
@@ -50,8 +50,9 @@ body{
 }
 
 .footer {
-    margin-top: 50px;
-    min-height: 60px;
     width: 100%;
-    background-color: #c1d6aa;
+    background-color: #669a2a;
+    min-height: 60px;
+    margin-top: 10px;
+    padding: 5px;
 }
