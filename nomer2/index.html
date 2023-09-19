@@ -8,9 +8,19 @@
 <body>
     <header class="header">
         <div class="header-content">
-            <img src="image/image.png" alt="буква Ю" class="logo">
-            <div class="name">Задание 2</div>
+            <nav class="pg-nav">
+                <a href="#link">Ссылки</a>
+                <a href="#table">Таблица</a>
+                <a href="#form">Форма</a>
+                <a href="#footer">Подвал</a>
+            </nav>
+            <img src="image/image.png" class="img" alt="буква Ю">
+            <br>
+            <br>
+            <br>
+            <span class="name">Задание 2</span>
         </div>
+        
     </header>
     <br>
     <section class="content" id="list">
@@ -113,25 +123,68 @@
             </li>
         </ul>
     </section>
-    <br>
-    <h2>Форма</h2>
-    <form action="/" method="POST">
-        <label> Введите своё ФИО
+    <section class="content">
+        <table class="table" id="table">
+            <h1>Таблица</h1>
+            <tbody>
+                <tr class="one">
+                    <th>Колонна 1</th>
+                    <th>Коллона 2</th>
+                    <th>Коллона 3</th>
+                    <th>Коллона 4</th>
+                </tr>
+                <tr class="two">
+                    <td>Ячейка 11</td>
+                    <td>Ячейка 12</td>
+                    <td>Ячейка 13</td>
+                    <td>Ячейка 14</td>
+                </tr>
+                <tr class="one">
+                    <td>Ячейка 21</td>
+                    <td>Ячейка 22</td>
+                    <td>Ячейка 23</td>
+                    <td>Ячейка 24</td>
+                </tr>
+                <tr class="two">
+                    <td>Ячейка 31</td>
+                    <td>Ячейка 32</td>
+                    <td>Ячейка 33</td>
+                    <td>Ячейка 34</td>
+                </tr>
+                <tr class="one">
+                    <td>Ячейка 41</td>
+                    <td>Ячейка 42</td>
+                    <td>Ячейка 43</td>
+                    <td>Ячейка 44</td>
+                </tr>
+                <tr class="two">
+                    <td colspan="4">Ячейки 51 52 53 54</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <form action="/ " method="post" class="content" id="form">
+        <h2>Форма</h2>
+        <label>
+            Введите своё ФИО
             <br>
             <input name="field-name-1" placeholder="Иванов Иван Иванович">
         </label>
         <br>
-        <label> Номер телефона
+        <label>
+            Номер телефона
             <br>
             <input name="field-phone-number" type="tel" placeholder="+78005553535">
         </label>
         <br>
-        <label> Почта
+        <label>
+            Почта
             <br>
             <input name="field-email" type="email" placeholder="example@mail.ru">
         </label>
         <br>
-        <label>Дата рождения
+        <label>
+            Дата рождения
             <br>
             <input name="date-of-birth" value="yyyy.mm.dd" type="date">
         </label>
@@ -146,7 +199,8 @@
             Жен
         </label>
         <br>
-        <label>Любимый язык программирования
+        <label>
+            Любимый язык программирования
             <br>
             <select name="field-list[]" multiple="multiple">
                 <option value="value1" selected="selected">С++</option>
@@ -157,7 +211,8 @@
             </select>
         </label>
         <br>
-        <label>Биография
+        <label>
+            Биография
             <br>
             <textarea name="field-bioghraphy">Начну свою историю с...</textarea>
         </label>
@@ -172,5 +227,11 @@
             <input type="submit" value="Сохранить">
         </label>
     </form>
+    <footer class="footer" id="footer">
+        <br>
+        <span class="name">
+            (c) Рузаев Владислав
+        </span>
+    </footer>
 </body>
 </html>
