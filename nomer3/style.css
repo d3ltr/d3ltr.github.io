@@ -49,14 +49,23 @@
     padding: 3vw;
 }
 
+.content-block img{
+    max-width: 100%;
+}
+
 .name-pg {
     margin-left: 2vw;
     font-size: xxx-large;
 }
 
+.pg-nav {
+    font-size: larger;
+    padding-bottom: 1vh;
+}
+
 .footer {
     width: 100%;
-    height: 4vh;
+    height: 40px;
     background-color: #669a2a;
     align-items: center;
 }
@@ -65,10 +74,7 @@
 /*
 
 
-.pg-nav {
-        font-size: larger;
-        padding-bottom: 1vh;
-    }
+
 
 
 menu-links li {
