@@ -16,7 +16,7 @@
     display: flex;
     padding: 20px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header-content h1 {
@@ -43,12 +43,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     width: 90vw;
     padding: 3vw;
 }
 
 .content-block img{
     max-width: 100%;
+    height: block;
 }
 
 .name-pg {
@@ -98,10 +100,6 @@
     }
     .flex-item-3{
         order: 3;
-    }
-
-    menu-links li{
-        display: inline;
     }
     .pg-nav{
         flex-direction: column;
