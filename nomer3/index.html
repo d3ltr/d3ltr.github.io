@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img src="image/image.png" class="img" alt="буква Ю">
+            <div class="name">Задание 3</div>
+        </div>
+    </header>
+    <br>
+
+    <div class="flex-box">
+        <nav class="pg-nav content-block name">
+            <a href="#list">Ссылки</a>
+            <a href="#table">Таблица</a>
+            <a href="#form">Форма</a>
+            <a href="#footer">Подвал</a>
+        </nav>
+        <div class="content-block flex-item1" id="list">
+            <ul>
+                <li>
+                    <a href="http://kubsu.ru">Абсолютная гиперссылка на главную страницу сайта КубГУ </a>
+                </li>
+                <li>
+                    <a href="https://kubsu.ru">Абсолютная ссылка на сайт КубГУ с протоколом https</a>
+                </li>
+                <li>
+                    "Ссылка-изображение"
+                    <br>
+                    <a href="http://example.com">
+                        <img src="image/flwr.jpg"
+                             width="300" height="300" alt="цветочек">
+                    </a>
+                </li>
+                <li>
+                    <a href="inlist.html">Сокращенная ссылка на внут. страницу</a>
+                </li>
+                <li>
+                    <a href="./index.html">Сокращенная ссылка на глав. страницу</a>
+                </li>
+                <li>
+                    <a href="#list">Ссылка на фрагмент страницы</a>
+                </li>
+                <li>
+                    <a href="https://kakoysegodnyaprazdnik.ru/?parametr1=p1&parametr2=p2&parametr3=p3/">Ссылка с 3мя параметрами</a>
+                </li>
+                <li>
+                    <a href="./index.html?id=5">Cсылка с параметром id</a>
+                </li>
+                <li>
+                    <a href="inlist.html">Относительную страницу в текущем каталоге</a>
+                </li>
+                <li>
+                    <a href="about/about.html">Относительную страницу в каталоге about</a>
+                </li>
+                <li>
+                    <a href="about/aaaa.html">Ссылка на страницу с нужной ссылкой</a>
+                </li>
+                <li>
+                    <a href="about/Web/1file.html">Ещё ссылка на страницу с нужной ссылкой</a>
+                </li>
+                <li>
+                    Контекстная
+                    <a href="https://example.com"><b>ссылка</b></a>
+                    в тексте
+                </li>
+                <li>
+                    <a href="https://ru.wikipedia.org/wiki/Россия#История">
+                        ссылка с другого сайта</a>
+                </li>
+                <li>
+                    Ссылка из фигурных элементов
+                    <br>
+                    <img src="https://cdn.discordapp.com/attachments/1079026732356608131/1149625802774814730/image.png"
+                         width="400" height="225" alt="дашборд" usemap="#butn">
+                    <map name="butn">
+                        <area shape="circle" coords="75,110,50" href="https://cdn.discordapp.com/attachments/1079026732356608131/1149625802774814730/image.png"
+                              alt="круглая обл">
+                        <area shape="rect" coords="165,100,381,134" href="https://cdn.discordapp.com/attachments/1079026732356608131/1149625802774814730/image.png"
+                              alt="прямоугольная обл">
+                    </map>
+                </li>
+                <li>
+                    <a href="">
+                        Ссылка с пустым href
+                    </a>
+                </li>
+                <li>
+                    <a>Ссылка без href</a>
+                </li>
+                <li>
+                    <a href="https://example.com" rel="nofollow">
+                        Ссылка, по которым запрещён переход поисковикам
+                    </a>
+                </li>
+                <li>
+                    <a href="https://example.com" rel="noindex">Запрещённая для индексации поисковиками</a>
+                </li>
+                <li>
+                    <ol>
+                        <h3>      Нумерованный список ссылок</h3>
+                        <li>
+                            <a href="http://example.com" title="Сайт пример">Ссылка</a>
+                        </li>
+                        <li>
+                            <a href="https://kubsu.ru" title="Страница КубГУ">Ещё сылка</a>
+                        </li>
+                        <li>
+                            <a href="https://kakoysegodnyaprazdnik.ru/" title="Какой сегодня праздник" > И ещё ссылка</a>
+                        </li>
+                    </ol>
+                </li>
+                <br>
+                <li>
+                    <a href="ftp://username:password@example.com/file/file.html">Cсылка на файл на сервере FTP с авторизацией</a>
+                </li>
+            </ul>
+        </div>
+        <div class="content-block flex-item-2"  id="table">
+            <table class="table">
+                <h1>Таблица</h1>
+                <tbody>
+                    <tr class="one">
+                        <th>Колонна 1</th>
+                        <th>Коллонна 2</th>
+                        <th>Коллонна 3</th>
+                        <th>Коллонна 4</th>
+                    </tr>
+                    <tr class="two">
+                        <td>Ячейка 11</td>
+                        <td>Ячейка 12</td>
+                        <td>Ячейка 13</td>
+                        <td>Ячейка 14</td>
+                    </tr>
+                    <tr class="one">
+                        <td>Ячейка 21</td>
+                        <td>Ячейка 22</td>
+                        <td>Ячейка 23</td>
+                        <td>Ячейка 24</td>
+                    </tr>
+                    <tr class="two">
+                        <td>Ячейка 31</td>
+                        <td>Ячейка 32</td>
+                        <td>Ячейка 33</td>
+                        <td>Ячейка 34</td>
+                    </tr>
+                    <tr class="one">
+                        <td>Ячейка 41</td>
+                        <td>Ячейка 42</td>
+                        <td>Ячейка 43</td>
+                        <td>Ячейка 44</td>
+                    </tr>
+                    <tr class="two">
+                        <td colspan="4">Ячейки 51 52 53 54</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="content-block flex-item-3" id="form">
+        <form action="/ " method="post">
+            <h2>Форма</h2>
+            <label>
+                Введите своё ФИО
+                <br>
+                <input name="field-name-1" placeholder="Иванов Иван Иванович">
+            </label>
+            <br>
+            <label>
+                Номер телефона
+                <br>
+                <input name="field-phone-number" type="tel" placeholder="+78005553535">
+            </label>
+            <br>
+            <label>
+                Почта
+                <br>
+                <input name="field-email" type="email" placeholder="example@mail.ru">
+            </label>
+            <br>
+            <label>
+                Дата рождения
+                <br>
+                <input name="date-of-birth" value="yyyy-MM-dd" type="date">
+            </label>
+            <br>Пол
+            <label>
+                <br>
+                <input type="radio" name="radio-gr-1" value="v1">
+                Муж
+            </label>
+            <label>
+                <input type="radio" name="radio-gr-1" value="v2">
+                Жен
+            </label>
+            <br>
+            <label>
+                Любимый язык программирования
+                <br>
+                <select name="field-list[]" multiple="multiple">
+                    <option value="value1" selected="selected">С++</option>
+                    <option value="value2">Java</option>
+                    <option value="value3">Kotlin</option>
+                    <option value="value4">Python</option>
+                    <option value="value5">PHP</option>
+                </select>
+            </label>
+            <br>
+            <label>
+                Биография
+                <br>
+                <textarea name="field-bioghraphy">Начну свою историю с...</textarea>
+            </label>
+            <label>
+                <br>
+                <input type="checkbox" name="check-1">
+                С контрактом ознакомлен(а)
+            </label>
+            <br>
+            <label>
+                <br>
+                <input type="submit" value="Сохранить">
+            </label>
+        </form>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <br>
+        <span class="name">
+                (c) Рузаев Владислав
+        </span>
+    </footer>
+</body>
+</html>
