@@ -6,9 +6,20 @@
 .header {
     background-color: #669a2a;
     width: 100vw;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-/*
+.header-content {
+    padding: 10px; 
+}
+
+.image {
+    float: left;
+    margin-right: 20px;
+}
 
 .flex-box {
     display: flex;
@@ -19,6 +30,10 @@
     gap: 3vh;
     align-items: center;
 }
+
+/*
+
+
 .pg-nav {
         font-size: larger;
         padding-bottom: 1vh;
