@@ -12,7 +12,7 @@ let setCalculate = (value) => {
 
 let getCalculate = (cost, select) => {
     if (Input(cost))
-        return "Стоимость: " + String(prices[select] * Number(cost));
+        return String(prices[select] * Number(cost));
     return "Введите другое значение";
 };
 
