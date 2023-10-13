@@ -5,8 +5,7 @@
 
 .header {
     background-color: #669a2a;
-    min-width: 402px;
-    height: 140px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +16,7 @@
     display: flex;
     padding: 10px;
     align-items: center;
+    justify-content: center;
 }
 
 .header-content h1 {
@@ -96,6 +96,7 @@
     .header {
         flex-direction: row;
         min-height: 120px;
+        width: 100%;
     }
     .content-block {
         min-width: 960px;
