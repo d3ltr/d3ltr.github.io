@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Задание 5</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <ul>
-            <li>Авокадо - 90 рублей</li>
-            <li>Брокколи - 78 рублей</li>
-            <li>Огурец - 56 рублей</li>
-            <li>Помидор - 43 рубля</li>
-        </ul>
-    </div>
-    <form action="/" method="POST"></form>
-        <label>
-            Количество товара
-            <input name="count" >
-        </label>
-        <label>
-        <select name="field-list[]">
-            <option value="value-1">Авокадо</option>
-            <option value="value-2">Брокколи</option>
-            <option value="value-3">Огурец</option>
-            <option value="value-4">Помидор</option>
-        </select>
-        </label>
-        <label>
-            <button id="button">Подсчитать стоимость</button>
-        </label>
-    </form>
+    <main>
+        <div class="flex-box">
+            <div class="list">
+                <ul>
+                    <ol>Авокадо - 90 рублей</ol>
+                    <ol>Брокколи - 78 рублей</ol>
+                    <ol>Огурец - 56 рублей</ol>
+                    <ol>Помидор - 43 рубля</ol>
+                </ul>
+            </div>
+            <form action="/" method="POST" class="calculator">
+                <label for="cost">
+                    Количество товара
+                </label>
+                <input id="cost" type="text" name="prodcost">
+                <label for="choice">
+                    Товар: 
+                </label>
+                <select name="choice" id="choice">
+                    <option value="val1">Авокадо</option>
+                    <option value="val2">Брокколи</option>
+                    <option value="val3">Огурец</option>
+                    <option value="val4">Помидор</option>
+                </select>
+                <label>
+                    <button id="button">Подсчитать стоимость</button>
+                </label>
+                <div id="result">Стоимость: </div>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
