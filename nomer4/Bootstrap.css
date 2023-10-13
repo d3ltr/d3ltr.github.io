@@ -50,19 +50,17 @@ header, footer, section {
 .content-block {
     background-color: #eaf1e2;
     display: flex;
+
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     padding: 3vw;
     border: 10px groove #226127;
+    min-width: 402px;
 }
 
 .content-block img{
     max-width: 100%;
-}
-
-.container{
-    background-color: #6cff6c52;
 }
 
 .container a{ 
@@ -80,9 +78,7 @@ header, footer, section {
     font-size: xx-large;
     font-weight: bold;
     padding-bottom: 1vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .pg-nav a{ 
@@ -124,6 +120,10 @@ header, footer, section {
     .header {
         flex-direction: row;
         min-height: 120px;
+    }
+
+    .header-content{
+        padding: 20px;
     }
 
     .content-block{

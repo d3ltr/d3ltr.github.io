@@ -8,25 +8,27 @@
     </head>
     <body>
         <header class="header">
-            <div class="container">
                 <div class="row">
-                    <div class="header-content col-xl-4 col-md-6 col-xs-12" >
+                    <div class="header-content text-center">
                         <img src="image/image.png" class="image" alt="буква Ю">
                         <h1 class="name-pg">Задание 4</h1>
                     </div>
                 </div>
-            </div>
         </header>
         <div class="container">
             <div class="row flex-box">
-                <nav class="pg-nav col-12 content-block ">
-                    <div class="">
-                        <a href="#list">Ссылки</a>
-                        <a href="#table">Таблица</a>
-                        <a href="#form">Форма</a>
-                        <a href="#footer">Подвал</a>
+                <nav class="content-block pg-nav">
+                    <div class="container">
+                        <ul>
+                            <li><a href="#list">Ссылки</a></li>
+                            <li><a href="#table">Таблица</a></li>
+                            <li><a href="#form">Форма</a></li>
+                            <li><a href="#footer">Подвал</a></li>
+                        </ul>
                     </div>
                 </nav>
+            </div>
+            <div class="row flex-box">
                 <div class="content-block flex-item-1" id="list">
                     <ul>
                         <li>
@@ -167,11 +169,11 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="content-block flex-item-3 justify-content-space-evenly" id="form">
+                <div class="content-block flex-item-3 " id="form">
                     <form action="/ " method="post">
                         <h2>Форма</h2>
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-xl-6 col-md-6">
                                 <label>
                                     Введите своё ФИО
                                     <br>
@@ -206,7 +208,7 @@
                                     Жен
                                 </label>
                             </div>
-                            <div class="col-6">
+                            <div class="col-xl-6 col-md-6">
                                 <label>
                                     Любимый язык программирования
                                     <br>
@@ -227,13 +229,13 @@
                             </div>
                         </div>
                         <div class="row">
-                            <label class="col-6">
+                            <label class="col-xl-6 col-md-6">
                                 <br>
                                 <input type="checkbox" name="check-1">
                                 С контрактом ознакомлен(а)
                             </label>
                             <br>
-                            <label class="col-6">
+                            <label class="col-xl-6 col-md-6">
                                 <br>
                                 <input type="submit" value="Сохранить">
                             </label>
