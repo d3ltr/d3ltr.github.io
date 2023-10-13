@@ -7,7 +7,7 @@ const prices = {
 
 let setCalculate = (value) => {
     let res = document.getElementById("result")
-    res.textContent = `Стоимость: ${value}`;
+    res.textContent = `${value}`;
 };
 
 let getCalculate = (cost, select) => {
