@@ -6,7 +6,7 @@
 .header {
     background-color: #669a2a;
     height: 120px;
-    min-width: 425px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,6 +22,10 @@
 
 .header-content h1 {
     margin-left: 20px;
+}
+
+.content-block img{
+    max-width: 100%;
 }
 
 .image {
@@ -46,11 +50,6 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 3%;
-    min-width: 402px;
-}
-
-.content-block img{
-    max-width: 100%;
 }
 
 .name-pg {
@@ -78,7 +77,6 @@
 }
 
 .footer {
-    min-width: 425px;
     height: 40px;
     background-color: #669a2a;
 }
@@ -98,7 +96,7 @@
     .header {
         flex-direction: row;
         min-height: 120px;
-        width: 100%;
+        min-width: 960px;
     }
     .content-block {
         min-width: 960px;
@@ -126,7 +124,7 @@
     }
 
     footer{
-        width: 100%;
+        min-width: 960px;
         min-height: 60px;
         margin-top: 10px;
     }
