@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 6</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main class="flex-box">
+        <div>
+            <section>
+                <h1>Калькулятор услуги</h1>
+                <div class="list">
+                    <ul>
+                        <ol>Лук репчатый - 30 рублей</ol>
+                        <ol>Картошка: обычная - 35 рублей, молодая - 60 рублей</ol>
+                        <ol>Морковь - 23 рубля(очищенная + 30 рублей)</ol>
+                    </ul>
+                </div>
+                <div class="calculator2">
+                    <label for="summa-usl">Количество:</label>
+                    <input id="summa-usl" type="text">
+                    <ul class="block-choice">
+                        <ol><input name="r" class="radio-choice" type="radio" value="Лук репчатый">Лук репчатый</ol>
+                        <ol><input name="r" class="radio-choice" type="radio" value="Картошка">Картошка</ol>
+                        <ol><input name="r" class="radio-choice" type="radio" value="Морковь">Морковь</ol>
+                    </ul>
+                    <div id="add">
+                        <label for="additional">Картошка</label>
+                        <select name="additional" id="additional">
+                            <option value="Обычная" selected="selected">Обычная</option>
+                            <option value="Молодая">Молодая</option>
+                        </select>
+                    </div>
+                    <div id="check">
+                        <label id="check_label" value="Очищенная">Очищенная</label>
+                        <input type="checkbox" id="checkbox">
+                    </div>
+                    <div id="result-usl">
+                        0
+                    </div>
+                </div>
+            </section>
+            <section>
+            <div class="flex-box">
+                <div class="list">
+                    <ul>
+                        <ol>Авокадо - 90 рублей</ol>
+                        <ol>Брокколи - 78 рублей</ol>
+                        <ol>Огурец - 56 рублей</ol>
+                        <ol>Помидор - 34 рубля</ol>
+                    </ul>
+                </div>
+                <div class="calculator1">
+                    <label for="cost">
+                        Количество товара
+                    </label>
+                    <input id="cost" type="text" name="prodcost">
+                    <label for="choice">
+                        Товар: 
+                    </label>
+                    <select name="choice" id="choice">
+                        <option value="val1">Авокадо</option>
+                        <option value="val2">Брокколи</option>
+                        <option value="val3">Огурец</option>
+                        <option value="val4">Помидор</option>
+                    </select>
+                    <label>
+                        <button id="button">Подсчитать стоимость</button>
+                    </label>
+                    <div id="result">Стоимость: </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+    <script src="script.js" defer></script>
+    <script src="6script.js" defer></script>
+</body>
+</html>

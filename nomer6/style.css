@@ -1,0 +1,47 @@
+label, input, select {
+    display: block;
+}
+
+button {
+    margin-top: 1vh;
+    width: 100%;
+} 
+
+.calculator1 {
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+    padding: 5vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.calculator2 {
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+    padding: 5vh;
+    width: 30vw;
+    border-radius: 5px;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.radio-choice {
+    display: inline;
+}
+
+.block-choice {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+ul, ol {
+    padding: 0;
+}
