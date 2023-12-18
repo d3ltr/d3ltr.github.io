@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+        <title>Задание 8</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <button id="popup_btn">Открыть форму</button>
+        <div id="popup">
+            <form id="form">
+
+                <label for="fullname">ФИО:</label>
+                <input type="text" id="fullname" class="input" required>
+
+                <label for="email">Электронная почта:</label>
+                <input type="email" id="email" class="input" required> 
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" class="input" required>
+
+                <label for="message">Сообщение:</label>
+                <textarea id="message" rows="5" class="input"></textarea>
+
+                <label>
+                    <input type="checkbox" class="checkbox" required>
+                    Согласен с <a href="">политикой</a> обработки персональных данных
+                </label>
+
+                <button class="submit" type="submit">Отправить</button>
+
+            </form>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+
+#message {
+    width: 100%;
+}
+
+#popup input {
+    width: 100%;
+}
+
+#popup label {
+    display: block;
+}
+
+
+#popup {
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 50vw;
+    background-color: #b1b6d6;
+    padding: 5vb;
+    border-radius: 2px;
+}
+
