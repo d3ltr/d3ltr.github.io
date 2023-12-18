@@ -1,0 +1,154 @@
+
+.plans-piece{
+    position: relative;
+    overflow: hidden
+}
+
+.plans-heading{
+    font-size: 20px;
+}
+
+.plans-container{
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto 0;
+    max-width: 90%;
+    align-items: center;
+    font-family: Montserrat-Regular;
+}
+
+.plans-option{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.plan-default{
+    background-color:rgb(248, 248, 248);
+    padding: 15px 10px;
+    border-radius: 2px;
+    border: 2px rgb(179, 179, 179) solid;
+}
+
+.plan-center{
+
+}
+
+.plan-option-head{
+    padding: 0 0 15px;
+    margin-bottom: 15px;
+    border-bottom: rgb(179, 179, 179) 1px solid;
+    color:#F14D34;
+}
+
+.plan-option-head-h{
+    font-size: 16px;
+}
+
+.plan-option-list{
+    padding-left: 10px;
+}
+
+.plans-default-captions{
+    font-size: 10px;
+    color:rgb(190, 190, 190);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.plan-option-button{
+    font-size: 10px;
+    justify-content: center;
+    background-color: #F14D34;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 0;
+    width: 100%;
+    font-family: ;
+}
+
+.plans-footer{
+    text-align: center;
+}
+
+.plans-footer div {
+    font-size: 10px;
+    color: rgb(190, 190, 190);
+    margin: 10px 0;
+}
+
+.plans-footer a {
+    font-size: 10px;
+    text-decoration: underline;
+    margin: 0 auto
+}
+@media screen and (min-width: 769px) {
+    .plans-heading {
+        font-size:42px
+    }
+
+    .plan-option-head-h {
+        font-size: 22px
+    }
+    
+    .plan-option-list {
+        font-size: 14px;
+        margin-bottom: 21px;
+        padding-left: 18px
+    }
+
+    .plans-option-button {
+        font-size: 12px
+    }
+
+    .plans-footer div {
+        font-size: 16px
+    }
+
+    .plans-footer a {
+        font-size: 12px
+    }
+    .plans-option{
+        flex-direction: row;
+        gap: 0;
+        align-items: center;
+    }
+    .plan-default {
+        border-radius: 5px;
+        padding: 50px 60px;
+        width: 33%;
+        align-self: center;
+        display: inline-block;
+        position: relative
+    }
+
+    .plan-default:first-child {
+        left: 10px
+    }
+
+    .plan-default:last-child {
+        right: 10px
+    }
+
+    .plan-option-head {
+        margin-bottom: 40px
+    }
+
+    .plan-option-button-container {
+        margin-top: 43px
+    }
+
+    .plan-option-button {
+        padding: 24px;
+        cursor: pointer
+    }
+    .plan-center {
+        padding-top: 66px;
+        padding-bottom: 62px;
+        align-self: stretch;
+        position: static;
+        z-index: 2;
+        box-shadow: 0 0 15px #999
+    }
+}
